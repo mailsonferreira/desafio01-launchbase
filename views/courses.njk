@@ -1,0 +1,55 @@
+{% extends "layout.njk"%}
+
+{%block head%}
+<title>Desafio - Cursos</title>
+{%endblock%}
+
+{% block content %} 
+
+    <section class="cursos">
+        <div class="curso" id="starter">
+            <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/starter.svg" alt="">
+            <h3> 5 Módulos </h3>
+            <p>Pago</p>
+        </div>    
+            <div class="curso" id="launchbase">
+                <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/launchbase.svg" alt="">
+                <h3> 10 Módulos </h3>
+                <p>Pago</p>
+            </div>
+
+            <div class="curso" id="gostack">
+                <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/gostack.svg" alt="">
+                <h3> 15 Módulos </h3>
+                <p>Pago</p>
+            </div>
+        
+    </section>
+
+    <div class="modal-overlay ">
+
+        <div class="modal">
+            <i class="far fa-window-close"></i>
+            <i class="far fa-window-maximize"></i>
+
+            <div class="modal-content">
+
+                <iframe src="" frameborder="0"></iframe>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+    
+
+    <footer class="footer">
+        <a href="https://github.com/Rocketseat" target="_blank"> <i class="fab fa-github"></i> Github</a>
+        <a href="https://www.instagram.com/rocketseat_oficial/" target="_blank"> <i class="fab fa-instagram"></i> Instagram</a>
+        <a href=" https://www.facebook.com/rocketseat " target="_blank"> <i class="fab fa-facebook" ></i> Facebook</a>
+    </footer>
+
+    <script src="script.js"></script>
+
+    {% endblock %}
